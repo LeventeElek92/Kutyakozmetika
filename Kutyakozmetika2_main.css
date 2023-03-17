@@ -1,0 +1,305 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+  }
+  body{    
+    background-color: white;
+    overflow-x: hidden;
+  }
+ 
+  h1{
+    margin:0;
+  }
+  .header{    
+    background-image: url(https://woofbeachcove.com/file/Dog-Grooming-Glen-Ellyn-IL.jpg);
+    background-repeat: no-repeat;
+    padding-bottom: 18em;
+    background-position: center;
+    object-fit: contain;
+  }
+  
+  .header_title{
+    text-align: center;    
+    font-size: 50px;
+    letter-spacing: 30px;
+    color: #000000;    
+    text-shadow: 2px 2px 0 #bcbcbc, 4px 4px 0 #9c9c9c;
+  }
+
+  .nav{
+    display:flex;
+    background-color: blueviolet;
+    position: sticky;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    width: 100%;
+    justify-content:center;
+    align-items:center;
+  }
+
+  .nav_front{
+    margin:auto;
+    color:white;
+  }
+
+  .nav_contact{
+    margin:auto;
+    color:white;
+  }
+
+  .nav_job{
+    margin:auto;
+    color:white;
+  }
+
+  .nav_FAQ{
+    margin:auto;
+    color:white;
+  }
+
+  .introduction{
+    display:flex;
+    text-align: center;
+    justify-content: center;
+    margin-top:20px;
+  }
+
+  .other_info{
+    display:flex;
+    text-align: center;
+    justify-content: center;
+    margin-top:20px;
+    color: #FFFFFF;
+    background: #333333;
+    text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px;
+  }
+
+  #img{
+    height: 360px;
+    object-fit: cover;
+    border: 1px solid black;
+    background-color: black;
+  }
+
+  #text{
+    display: inline-grid;
+    font-size: 20px;
+    text-align: justify;
+    align-items: center;
+    padding:auto;
+  }
+
+  .text_title{
+    text-align: center;
+  }
+
+  .grid_container {
+    justify-content: center;
+    display: grid;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding:20px;
+    grid-template-columns: 600px 600px;
+    grid-template-rows: 360px 360px;
+    gap:20px;
+  }
+
+  .yorki_pic{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+  }
+
+  .spaniel_pic{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+  }
+
+  .caucasian_pic{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+  }
+
+  .germanshep_pic{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+  }
+
+  .button{
+    text-align: center;
+  }
+  
+  .submit{
+    width: 500px;       
+    height: 100px;    
+    border: 2px solid black;
+    cursor: pointer;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 30px;
+    margin: 2em;
+    border: 1px solid black;
+    border-radius: 29px;
+    color: #FFFFFF;
+    background: #333333;
+    text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px;
+  }
+  
+  .submit:hover{
+    font-size:30px;    
+    transform: scale(1.1);    
+  }
+
+  .plus_info{
+    font-variant: small-caps;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  .footer{
+    display:flex;
+    background-color: blueviolet;
+    position: static;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    width: 100%;
+    border-top: 1px solid white;
+    justify-content:center;
+    align-items:center;
+    color:white;
+  }
+.footer_name{  
+    margin: auto;
+}
+
+.footer_address{    
+    margin: auto;   
+}
+
+.footer_phone{
+    margin: auto;
+}
+
+@media screen and (max-width: 800px){
+  body{
+    background: url(https://pyxis.nymag.com/v1/imgs/61e/3b0/2aa370457a4d9c943cf10e5d36466ec427-kera-.2x.rdeep-vertical.w460.jpg) center center fixed;
+  }
+
+  .header{
+    background-image: none;
+  }
+
+  .header_title{
+    font-size: 25px;
+    background-color: white;
+  }
+
+  .introduction{
+    background-color: white;
+  }
+
+  .grid_container {
+    grid-template-columns: 600px;
+    grid-template-rows: 360px;
+  }
+
+  #text{
+    background-color: white;
+    padding: 10px;
+  }
+
+  .submit{
+    background-color: #333333;
+  }
+
+  .footer_name, .footer_address, .footer_phone{  
+    margin: none;
+}  
+}
+
+@media screen and (max-width: 600px){
+  body{
+    background: url(https://pyxis.nymag.com/v1/imgs/61e/3b0/2aa370457a4d9c943cf10e5d36466ec427-kera-.2x.rdeep-vertical.w460.jpg) center center fixed;
+  }
+
+  .header{
+    background-image: none;
+  }
+
+  .header_title{
+    font-size: 20px;
+    background-color: white;
+  }
+
+  .introduction{
+    background-color: white;
+  }
+
+  .grid_container {
+    grid-template-columns: 600px;
+    grid-template-rows: 360px;
+  }
+
+  #text{
+    background-color: white;
+    padding: 10px;
+  }
+  
+  .submit{
+    background-color: #333333;
+  }
+
+  .footer_name, .footer_address, .footer_phone{  
+    margin: none;
+}  
+}
+
+@media screen and (max-width: 400px){
+  body{
+    background: url(https://pyxis.nymag.com/v1/imgs/61e/3b0/2aa370457a4d9c943cf10e5d36466ec427-kera-.2x.rdeep-vertical.w460.jpg) center center fixed;
+  }
+
+  .header{
+    background-image: none;
+  }
+
+  .header_title{
+    font-size: 15px;
+    background-color: white;
+  }
+
+  .introduction{
+    background-color: white;
+  }
+
+  .other_info{
+    font-size: 15px;
+  }
+
+  .grid_container {
+    grid-template-columns: 600px;
+    grid-template-rows: 360px;
+  }
+
+  #text{
+    background-color: white;
+    padding: 10px;
+    font-size: 15px;
+  }
+  
+  .submit{
+    background-color: #333333;
+  }
+
+  .footer_name, .footer_address, .footer_phone{  
+    margin: none;
+}  
+}

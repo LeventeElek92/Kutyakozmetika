@@ -1,0 +1,365 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+  }
+  body{
+    margin:0;
+    background-color: white;
+  }
+ 
+  h1{
+    margin:0;
+  }
+  .header{    
+    background-image: url(https://woofbeachcove.com/file/Dog-Grooming-Glen-Ellyn-IL.jpg);
+    background-repeat: no-repeat;
+    padding-bottom: 18em;
+    background-position: center;
+    object-fit: contain;
+  }
+  
+  .header_title{
+    text-align: center;    
+    font-size: 50px;
+    letter-spacing: 30px;
+    color: #000000;    
+    text-shadow: 2px 2px 0 #bcbcbc, 4px 4px 0 #9c9c9c;
+  }
+
+  .nav{
+    display:flex;
+    background-color: blueviolet;
+    position: sticky;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    width: 100%;
+    justify-content:center;
+    align-items:center;
+  }
+
+  .nav_front{
+    margin:auto;
+    color:white;
+  }
+
+  .nav_contact{
+    margin:auto;
+    color:white;
+  }
+
+  .nav_job{
+    margin:auto;
+    color:white;
+  }
+
+  .nav_FAQ{
+    margin:auto;
+    color:white;
+  }
+
+  .other_info{
+    display:flex;
+    text-align: center;
+    justify-content: center;
+    margin-top:20px;
+    color: #FFFFFF;
+    background: #333333;
+    text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px;
+  }
+ 
+  form{
+    align-content: center;
+    justify-content: center;
+    margin-top:30px;
+    overflow:hidden;
+  }
+  
+.legend{
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 15px;
+    font-size: 30px;
+    color: #444444;
+    text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;
+}
+
+.owner_name{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 120px;
+}
+
+.address{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 120px;
+}
+
+.phone{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 120px;
+}
+
+.breed{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 120px;
+}
+
+.allergy{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 120px;
+}
+
+.service{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 120px;
+}
+
+.nail{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 120px;
+  font-size:14pt;
+}
+
+#textbox{
+  background-color: rgba(214, 141, 236, 0.059);
+  width: 620px;
+  height:58px;
+  padding: 0 33.6px;
+  font-size:14pt;
+  text-align: center;
+  border: 1px solid purple;
+  border-radius: 29px;
+}
+
+.button{
+  text-align: center;
+}
+
+.submit{
+  width: 300px;       
+  height: 100px;    
+  border: 2px solid black;
+  cursor: pointer;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 30px;
+  margin: 2em;
+  border: 1px solid purple;
+  border-radius: 29px;
+  color: #FFFFFF;
+  background: #333333;
+  text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px;
+}
+
+.submit:hover{
+  font-size:30px;    
+  transform: scale(1.1);    
+}
+  .footer{
+    display:flex;
+    background-color: blueviolet;
+    position:static;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    width: 100%;
+    border-top: 1px solid white;
+    justify-content:center;
+    align-items:center;
+    color:white;
+  }
+.footer_name{  
+    margin: auto;
+}
+
+.footer_address{    
+    margin: auto;
+   
+}
+
+.footer_phone{
+    margin: auto;    
+}
+
+
+@media screen and (max-width: 800px){
+  body{
+    background: url(https://pyxis.nymag.com/v1/imgs/61e/3b0/2aa370457a4d9c943cf10e5d36466ec427-kera-.2x.rdeep-vertical.w460.jpg) center center fixed;
+  }
+
+  .header{
+    background-image: none;
+  }
+
+  .header_title{
+    font-size: 25px;
+    background-color: white;
+  }
+
+  .legend{
+    text-align: center;
+  }
+
+  div{
+    margin-bottom:1em;
+    float:none;
+  }
+  
+  form{
+    margin:none;
+  }
+
+  .legend{
+    background-color: white;
+  }
+
+  #textbox{
+    width: 310px;
+    height:48px;
+    background-color: white;
+  }
+
+  .nail{
+    display: flex;
+    text-align: center;
+    background-color: white;
+  }
+
+  .submit{
+    background-color: #333333;
+  }
+
+  .footer_name, .footer_address, .footer_phone{  
+    margin: none;
+}  
+}
+
+@media screen and (max-width: 600px){
+  body{
+    background: url(https://pyxis.nymag.com/v1/imgs/61e/3b0/2aa370457a4d9c943cf10e5d36466ec427-kera-.2x.rdeep-vertical.w460.jpg) center center fixed;
+  }
+
+  .header{
+    background-image: none;
+  }
+
+  .header_title{
+    font-size: 20px;
+    background-color: white;
+  }
+
+  .legend{
+    text-align: center;
+  }
+
+  div{
+    margin-bottom:1em;
+    float:none;
+  }
+  
+  form{
+    margin:none;
+  }
+
+  .legend{
+    background-color: white;
+  }
+
+  #textbox{
+    width: 233px;
+    height:36px;
+    background-color: white;
+  }
+
+  .nail{
+    display: flex;
+    text-align: center;
+    background-color: white;
+  }
+
+  .submit{
+    background-color: #333333;
+  }
+
+  .footer_name, .footer_address, .footer_phone{  
+    margin: none;
+}  
+}
+
+@media screen and (max-width: 400px){
+  body{
+    background: url(https://pyxis.nymag.com/v1/imgs/61e/3b0/2aa370457a4d9c943cf10e5d36466ec427-kera-.2x.rdeep-vertical.w460.jpg) center center fixed;
+  }
+
+  .header{
+    background-image: none;
+  }
+
+  .header_title{
+    font-size: 15px;
+    background-color: white;
+  }
+
+  .other_info{
+    font-size: 15px;
+  }
+
+  .legend{
+    text-align: center;
+  }
+
+  div{
+    margin-bottom:1em;
+    float:none;
+  }
+  
+  form{
+    margin:none;
+  }
+
+  .legend{
+    background-color: white;
+  }
+
+  #textbox{
+    width: 160px;
+    height:24px;
+    background-color: white;
+  }
+
+  .nail{
+    display: flex;
+    text-align: center;
+    background-color: white;
+  }
+
+  .submit{
+    background-color: #333333;
+  }
+
+  .footer_name, .footer_address, .footer_phone{  
+    margin: none;
+}  
+}
